@@ -5,7 +5,7 @@ const single_project = ({data}) => {
   return (
     <>
       <main className='bg-luxBrown min-h-[100vh]'>
-        <SingleProject data={data}/> 
+        <SingleProject {...data}/> 
       </main>
 
     </>

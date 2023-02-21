@@ -3,8 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import MainLayout from '../Layout/MainLayout';
 
-const SingleProject = ({data}) => {
-  const {title, website, description, github, image, status} = data; 
+const SingleProject = ({title,image,description,website,github,status}) => {
   return (
     <MainLayout>
         <div className='projectWrapper mt-3  md:mt-5'>
