@@ -4,15 +4,15 @@ import Footer from './components/LandingPage/Footer/Footer';
 import Profile from './components/LandingPage/Profile/Profile';
 import Background from './components/LandingPage/Background/Background';
 import SideMenu from './components/LandingPage/SideMenu/SideMenu';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Experience from './components/LandingPage/Experience/Experience';
 
 export default function Home({clients}) {
   const [sideMenu,setSideMenu]=useState(false);
-  console.log(clients)
+  
   return (
     <>
-      <div className='APP flex flex-col lg:flex-row'>
+      <div className='APP flex flex-col lg:flex-row' onClick={()=>{if(sideMenu)setSideMenu(false)}}>
           <main className='bg-luxBrown lg:sticky lg:left-0 lg:top-0 bottom-0 leftSection w-[100%] lg:h-[100vh] lg:max-w-[600px] relative'>
             <div className='px-10 py-5 lg:px-4 h-[100%] flex flex-col gap-12 lg:gap-2'>
               <div className='lg:flex-[1]'>

@@ -222,9 +222,6 @@ const Contact = () => {
                       </span>
                     </p>
                   </div>
-                  <div className="absolute bottom-0 left-[50%] translate-x-[-50%]">
-                     <small className="whitespace-nowrap">Your information will only be used for the purpose of contacting</small>
-                  </div>
                 </div>
                 <div className="imageRight absolute right-0 hidden md:block">
                   <Image
