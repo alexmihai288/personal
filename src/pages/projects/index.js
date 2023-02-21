@@ -8,14 +8,14 @@ const Index = ({projects}) => {
   const [allProjects,setAllProjects] = useState([]);
   const [searchText,setSearchText]=useState('');
   if(allProjects.length==0)
-    setAllProjects(projects.map(project=>{
+    setAllProjects(projects && projects.map(project=>{
       return {
         ...project,
         id:nanoid(),
         isVisible:true
       }
     }))
-  const filteredProjects=allProjects.filter(project=>project.isVisible); 
+  const filteredProjects=allProjects && allProjects.filter(project=>project.isVisible); 
   return (        
     <>
         <main className='bg-luxBrown'>
