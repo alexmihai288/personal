@@ -2,7 +2,6 @@ import Navbar from './components/LandingPage/Navbar/Navbar';
 import Hero from './components/LandingPage/Hero/Hero';
 import Footer from './components/LandingPage/Footer/Footer';
 import Profile from './components/LandingPage/Profile/Profile';
-import Experience from './components/LandingPage/Experience/Experience';
 import Background from './components/LandingPage/Background/Background';
 import SideMenu from './components/LandingPage/SideMenu/SideMenu';
 import { useState } from 'react';
@@ -28,7 +27,6 @@ export default function Home({clients}) {
           </main>
           <main className='rightSection bg-[#d0c9c7] w-[100%] py-4'>
             <Background/>
-            <Experience clients={clients}/>
           </main>
       </div>
       
