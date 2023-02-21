@@ -15,7 +15,7 @@ const single_project = ({data}) => {
 export async function getStaticPaths(){
   const {projects} = await import ("/data/data.json");
 
-  const allPaths = projects.map(path=>{
+  const allPaths = projects && projects.map(path=>{
     return{
       params:{
         single_project:path.title,

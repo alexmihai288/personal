@@ -30,7 +30,7 @@ const Index = ({projects}) => {
                         {filteredProjects.length==0 ? 
                             <p className='text-[#e2b928]'>No results found :/</p>
                             :
-                            filteredProjects.map(project=>{
+                            filteredProjects && filteredProjects.map(project=>{
                             return <Card key={nanoid()} project={project} />
                         })}
                   </div>
