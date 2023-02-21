@@ -9,7 +9,7 @@ import Experience from './components/LandingPage/Experience/Experience';
 
 export default function Home({clients}) {
   const [sideMenu,setSideMenu]=useState(false);
-  
+  console.log(clients)
   return (
     <>
       <div className='APP flex flex-col lg:flex-row'>

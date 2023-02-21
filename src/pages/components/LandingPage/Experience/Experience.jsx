@@ -23,7 +23,7 @@ const Experience = ({ clients }) => {
           </p>
         </div>
         <div className="clients flex flex-col gap-14 lg:gap-12 2xl:flex-row 2xl:justify-center">
-            {clients.map((client) => {
+            {clients && clients.map((client) => {
                 return <Client key={client.id} {...client} />;
             })}
         </div>
