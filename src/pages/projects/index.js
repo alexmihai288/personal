@@ -31,7 +31,7 @@ const Index = ({projects}) => {
                             <p className='text-[#e2b928]'>No results found :/</p>
                             :
                             filteredProjects.map(project=>{
-                            return <Card key={nanoid()} project={project} />
+                            return <Card key={nanoid()} {...project} />
                         })}
                   </div>
                 </div>

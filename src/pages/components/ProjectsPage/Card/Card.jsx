@@ -2,8 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Card = ({project}) => {
-  const {title, website, github, image, status} = project;
+const Card = ({title, website, github, image, status}) => {
   return (
     <div className={`card flex flex-col justify-center gap-3.5 p-4 border border-[#9e9e9e] rounded-md md:flex-row md:justify-start overflow-hidden`}>
         <Link rel='noreferrer' href={`/projects/${title}`}>
