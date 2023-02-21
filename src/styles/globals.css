@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.noRender{
+    visibility: hidden;
+}
+
+.projectWrapperContainer::-webkit-scrollbar{
+    width: 0 !important;
+}
+
+.projectWrapperContainer{
+    max-height: 500px;
+    overflow-y: scroll;
+    padding-right: 15px;
+    border-right: 3px solid rgba(255,255,255,.5);
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: #d0c9c7;
+
+}
+::-webkit-scrollbar-thumb {
+    background: #352b2c;
+    border-radius: 10px;
+}

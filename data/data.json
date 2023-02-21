@@ -1,0 +1,58 @@
+{
+    "clients":[
+        {
+            "name":"Anonym",
+            "id":1,
+            "company":"Perpedes",
+            "website":"https://github.com/dennisdingo28/Perpedes-Romania.git",
+            "img":"/images/client.svg",
+            "feedback":"4",
+            "description":"Great website for FiveM servers, easy to navigate and find what you need. Recommended!"
+        },
+        {
+            "name":"Anonym",
+            "id":2,
+            "company":"Help Others Every Day",
+            "website":"https://helpotherseveryday.co.uk/",
+            "img":"/images/client.svg",
+            "feedback":"5",
+            "description":"HelpOthersEveryDay encourages kindness and positive impact through its helpful resources and tools. Recommended."
+        }
+    ]
+    ,
+    "projects":[
+        {
+
+            "title":"Rick and Morty",
+            "website":"https://wi-ki.vercel.app/",
+            "description":"I developed a dynamic web site that showcases the characters, locations, and episodes from the popular animated television show, Rick and Morty. The site utilizes the Rick and Morty API to retrieve information and dynamically display it to the user. Visitors to the site can browse through a gallery of characters, view details about each location, and learn about different episodes. The design of the site is modern and visually appealing, creating an immersive experience for fans of the show. The website was built with React Js and Bootstrap, demonstrating my skills in front-end web development.",
+            "github":"https://github.com/dennisdingo28/wiKi",
+            "image": "/images/wiki.png",
+            "status":"online"
+        },
+        {
+            "title": "Events Site",
+            "website": "https://nextjs-one-lac-46.vercel.app/",
+            "description":"Developed a dynamic and user-friendly events website for discovering and experiencing new events, both for local residents and visitors",
+            "github":"https://github.com/dennisdingo28/nextjs",
+            "image": "/images/events.png",
+            "status": "online"
+        },
+        {
+            "title": "Fivem Community Site",
+            "website": "Perpedes",
+            "description":"I made a Fivem community website that connects gamers and provides a range of features. It was created using Tailwind CSS, HTML5, and JavaScript, which helped to create a visually appealing, functional, and intuitive website. The website showcases passion for gaming and technology.",
+            "github":"https://github.com/dennisdingo28/Perpedes-Romania.git",
+            "image": "/images/fivem.png",
+            "status": "offline"
+        },
+        {
+            "title": "Todo App",
+            "website": "https://todo-app-dun-six.vercel.app/",
+            "description":"I had created this Todo App for myself to help me stay organized and get things done in an efficent way.Also I considered that this application should be in my portoflio because it uses some great features such as settings,history,all deleted todos and more.",
+            "github":"https://github.com/dennisdingo28/Perpedes-Romania.git",
+            "image": "/images/todo.png",
+            "status": "online"
+        }
+    ]
+}
