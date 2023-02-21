@@ -1,5 +1,5 @@
 import React from "react";
-import Client from "../Client/Client";
+import Client from "../ClientDir/Client";
 
 const Experience = ({ clients }) => {
   return (
