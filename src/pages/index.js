@@ -5,6 +5,7 @@ import Profile from './components/LandingPage/Profile/Profile';
 import Background from './components/LandingPage/Background/Background';
 import SideMenu from './components/LandingPage/SideMenu/SideMenu';
 import { useState } from 'react';
+import Experience from './components/LandingPage/Experience/Experience';
 
 export default function Home({clients}) {
   const [sideMenu,setSideMenu]=useState(false);
@@ -27,6 +28,7 @@ export default function Home({clients}) {
           </main>
           <main className='rightSection bg-[#d0c9c7] w-[100%] py-4'>
             <Background/>
+            <Experience clients={clients}/>
           </main>
       </div>
       
