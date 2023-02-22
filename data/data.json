@@ -2,15 +2,6 @@
     "clients":[
         {
             "name":"Anonym",
-            "id":1,
-            "company":"Perpedes",
-            "website":"https://github.com/dennisdingo28/Perpedes-Romania.git",
-            "img":"/images/client.svg",
-            "feedback":"4",
-            "description":"Great website for FiveM servers, easy to navigate and find what you need. Recommended!"
-        },
-        {
-            "name":"Anonym",
             "id":2,
             "company":"Help Others Every Day",
             "website":"https://helpotherseveryday.co.uk/",
@@ -37,14 +28,6 @@
             "github":"https://github.com/dennisdingo28/nextjs",
             "image": "/images/events.png",
             "status": "online"
-        },
-        {
-            "title": "Fivem Community Site",
-            "website": "Perpedes",
-            "description":"I made a Fivem community website that connects gamers and provides a range of features. It was created using Tailwind CSS, HTML5, and JavaScript, which helped to create a visually appealing, functional, and intuitive website. The website showcases passion for gaming and technology.",
-            "github":"https://github.com/dennisdingo28/Perpedes-Romania.git",
-            "image": "/images/fivem.png",
-            "status": "offline"
         },
         {
             "title": "Todo App",
