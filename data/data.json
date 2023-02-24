@@ -13,7 +13,15 @@
     ,
     "projects":[
         {
+            "title":"Muscle&Strength",
+            "website":"https://muscle-strength.vercel.app/",
+            "description":"I designed a comprehensive and dynamic website template that focuses on muscle-building and strength training. The template offers a range of pages that provide information on workouts, nutrition, and fitness tips.The Muscle and Strength website template is built with NextJs,Tailwind and Bootstrap, demonstrating advanced skills in front-end web development.",
+            "github":"https://github.com/alexmihai288/Gym",
+            "image": "/images/muscle.png",
+            "status":"online"
 
+        },
+        {
             "title":"Rick and Morty",
             "website":"https://wi-ki.vercel.app/",
             "description":"I developed a dynamic web site that showcases the characters, locations, and episodes from the popular animated television show, Rick and Morty. The site utilizes the Rick and Morty API to retrieve information and dynamically display it to the user. Visitors to the site can browse through a gallery of characters, view details about each location, and learn about different episodes. The design of the site is modern and visually appealing, creating an immersive experience for fans of the show. The website was built with React Js and Bootstrap, demonstrating my skills in front-end web development.",
